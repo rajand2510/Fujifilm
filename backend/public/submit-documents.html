@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Proof Submission</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #f8fafc 0%, #e0e7ef 100%);
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 500px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 32px;
+      border-radius: 18px;
+      box-shadow: 0 4px 32px rgba(60, 72, 100, 0.08);
+      border: 1px solid #e5e7eb;
+    }
+    .header {
+      text-align: left;
+      margin-bottom: 16px;
+    }
+    .header h2 {
+      margin: 0 0 6px 0;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #26324d;
+    }
+    .header p {
+      margin: 0;
+      color: #7b8794;
+      font-size: 0.98rem;
+    }
+    .signature {
+      margin: 22px 0 16px;
+      color: #6b7280;
+      font-size: 0.98rem;
+    }
+    .form-group {
+      margin-bottom: 18px;
+      margin-right: 20px;
+    }
+    .form-group label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: 600;
+      color: #374151;
+      font-size: 1rem;
+    }
+    .form-group input[type="file"],
+    .form-group textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1.5px solid #e5e7eb;
+      border-radius: 7px;
+      background: #f9fafb;
+      transition: border 0.2s, box-shadow 0.2s;
+      font-size: 1rem;
+    }
+    .form-group textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+    .form-group input[type="file"]:focus,
+    .form-group textarea:focus {
+      border-color: #2563eb;
+      box-shadow: 0 0 0 2px #2563eb22;
+      outline: none;
+    }
+    .form-group input[type="radio"] {
+      margin-right: 8px;
+    }
+    .radio-group {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 18px;
+    }
+    .buttons {
+      text-align: center;
+      margin-top: 24px;
+    }
+
+    #Amount{
+      color: #22c55e;
+      font-weight: bold;
+    }
+    .buttons button {
+      padding: 12px 32px;
+      border: none;
+      border-radius: 8px;
+      background: linear-gradient(90deg, #2563eb 0%, #3b82f6 100%);
+      color: #fff;
+      cursor: pointer;
+      font-size: 1.08rem;
+      font-weight: 600;
+      box-shadow: 0 2px 8px rgba(37, 99, 235, 0.07);
+      transition: background 0.18s, transform 0.12s;
+    }
+    .buttons button:hover:not(:disabled) {
+      background: linear-gradient(90deg, #1d4ed8 0%, #2563eb 100%);
+      transform: translateY(-1px) scale(1.03);
+    }
+    .buttons button:disabled {
+      background: #cbd5e1;
+      cursor: not-allowed;
+    }
+    .error {
+      color: #ef4444;
+      text-align: center;
+      margin-bottom: 12px;
+      font-weight: 600;
+      font-size: 1.02rem;
+    }
+    .success {
+      color: #22c55e;
+      text-align: center;
+      margin-bottom: 12px;
+      font-size: 1.13rem;
+      font-weight: 700;
+    }
+    .info {
+      color: #2563eb;
+      text-align: center;
+      margin-bottom: 12px;
+      font-size: 1.02rem;
+    }
+    @media (max-width: 600px) {
+      .container {
+        padding: 12px 6px 16px 6px;
+        max-width: 98vw;
+      }
+      .header h2 {
+        font-size: 1.18rem;
+      }
+      .buttons button {
+        padding: 10px 18px;
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <noscript>
+    <div class="error">Please enable JavaScript to use this form.</div>
+  </noscript>
+  <div class="container">
+    <div class="header">
+      <h2>Payment Proof Submission</h2>
+      <p>Please confirm your agreement and upload your payment proof document or provide a reason for disagreement.</p>
+    </div>
+    <div id="error" class="error" style="display: none;"></div>
+    <div id="success" class="success" style="display: none;"></div>
+    <div id="info" class="info" style="display: none;"></div>
+    <div id="form-content">
+      <div class="signature">
+        <p>Vendor Name: <span id="vendorName">Vendor</span></p>
+          <p>Payment Amount: <span id="Amount">Amount</span></p>
+      </div>
+      <div class="form-group">
+        <label>Do you agree to submit the payment proof?</label>
+        <div class="radio-group">
+          <label><input type="radio" name="agreement" value="agree" checked> Agree</input></label>
+          <label><input type="radio" name="agreement" value="disagree"> Disagree</input></label>
+        </div>
+      </div>
+      <div class="form-group" id="paymentProofGroup">
+        <label for="paymentProof">Upload Payment Proof (PDF):</label>
+        <input type="file" id="paymentProof" name="paymentProof" accept=".pdf">
+      </div>
+      <div class="form-group" id="reasonGroup" style="display: none;">
+        <label for="reason">Reason for Disagreement:</label>
+        <textarea id="reason" name="reason" placeholder="Please provide a reason for disagreement"></textarea>
+      </div>
+      <div class="buttons">
+        <button id="submitBtn">Submit</button>
+      </div>
+    </div>
+  </div>
+  <script>
+    // Fetch company data and check submission status
+    async function fetchCompanyData() {
+      const companyId = window.location.pathname.split('/').pop();
+      try {
+        const response = await fetch(`http://localhost:3003/api/companies/${companyId}`);
+        if (!response.ok) throw new Error(`Failed to fetch company data: ${response.statusText}`);
+        const company = await response.json();
+        document.getElementById('vendorName').textContent = company.companyName || 'Vendor';
+        document.getElementById('Amount').textContent = company.billAmount || 'Amount';
+        // Check if submission is allowed
+        if (company.documentSubmitted || company.linkUsed) {
+          const errorMsg = 'This form has already been submitted and cannot be used again.';
+          document.getElementById('error').textContent = errorMsg;
+          document.getElementById('error').style.display = 'block';
+          document.getElementById('form-content').style.display = 'none';
+          alert(errorMsg);
+        } else if (company.status === 'Payment Not Agreed') {
+          const infoMsg = 'You previously disagreed. You may now submit a payment proof if you agree.';
+          document.getElementById('info').textContent = infoMsg;
+          document.getElementById('info').style.display = 'block';
+        }
+      } catch (error) {
+        const errorMsg = `Error: ${error.message}. Please contact support.`;
+        document.getElementById('error').textContent = errorMsg;
+        document.getElementById('error').style.display = 'block';
+        document.getElementById('form-content').style.display = 'none';
+        alert(errorMsg);
+      }
+    }
+
+    // Toggle visibility of payment proof and reason fields
+    const agreementRadios = document.querySelectorAll('input[name="agreement"]');
+    const paymentProofGroup = document.getElementById('paymentProofGroup');
+    const reasonGroup = document.getElementById('reasonGroup');
+    agreementRadios.forEach(radio => {
+      radio.addEventListener('change', () => {
+        if (radio.value === 'agree') {
+          paymentProofGroup.style.display = 'block';
+          reasonGroup.style.display = 'none';
+          document.getElementById('paymentProof').setAttribute('required', '');
+          document.getElementById('reason').removeAttribute('required');
+        } else {
+          paymentProofGroup.style.display = 'none';
+          reasonGroup.style.display = 'block';
+          document.getElementById('paymentProof').removeAttribute('required');
+          document.getElementById('reason').setAttribute('required', '');
+        }
+      });
+    });
+
+    // Handle form submission
+    document.getElementById('submitBtn').addEventListener('click', async () => {
+      try {
+        const companyId = window.location.pathname.split('/').pop();
+        const agreement = document.querySelector('input[name="agreement"]:checked').value;
+        const paymentProofInput = document.getElementById('paymentProof');
+        const reasonInput = document.getElementById('reason');
+        const paymentProof = paymentProofInput.files[0];
+        const reason = reasonInput.value;
+
+        // Clear previous messages
+        document.getElementById('error').style.display = 'none';
+        document.getElementById('success').style.display = 'none';
+        document.getElementById('info').style.display = 'none';
+
+        // Validate input
+        if (agreement === 'agree') {
+          if (!paymentProof) {
+            const errorMsg = 'Please upload a payment proof document (PDF).';
+            document.getElementById('error').textContent = errorMsg;
+            document.getElementById('error').style.display = 'block';
+            alert(errorMsg);
+            return;
+          }
+          if (!paymentProof.name.toLowerCase().endsWith('.pdf')) {
+            const errorMsg = 'Payment proof document must be a PDF.';
+            document.getElementById('error').textContent = errorMsg;
+            document.getElementById('error').style.display = 'block';
+            alert(errorMsg);
+            return;
+          }
+        } else {
+          if (!reason || reason.trim() === '') {
+            const errorMsg = 'Please provide a reason for disagreement.';
+            document.getElementById('error').textContent = errorMsg;
+            document.getElementById('error').style.display = 'block';
+            alert(errorMsg);
+            return;
+          }
+        }
+
+        const formData = new FormData();
+        formData.append('agreement', agreement);
+        if (agreement === 'agree') {
+          formData.append('paymentProof', paymentProof);
+        } else {
+          formData.append('reason', reason);
+        }
+
+        document.getElementById('submitBtn').disabled = true;
+        document.getElementById('submitBtn').textContent = 'Submitting...';
+
+        const response = await fetch(`http://localhost:3003/submit-documents/${companyId}`, {
+          method: 'POST',
+          body: formData,
+        });
+
+        let data;
+        const contentType = response.headers.get('content-type');
+        if (contentType && contentType.includes('application/json')) {
+          data = await response.json();
+        } else {
+          throw new Error('Server returned an invalid response.');
+        }
+
+        if (response.ok) {
+          const successMsg = agreement === 'agree'
+            ? 'Payment proof submitted successfully!'
+            : 'Payment disagreement submitted successfully!';
+          document.getElementById('success').textContent = successMsg;
+          document.getElementById('success').style.display = 'block';
+          document.getElementById('form-content').style.display = 'none';
+          alert(successMsg);
+        } else {
+          const errorMsg = data.error || 'Failed to submit.';
+          document.getElementById('error').textContent = errorMsg;
+          document.getElementById('error').style.display = 'block';
+          document.getElementById('form-content').style.display = 'none';
+          alert(errorMsg);
+        }
+      } catch (error) {
+        const errorMsg = `Error: ${error.message}. Please try again or contact support.`;
+        document.getElementById('error').textContent = errorMsg;
+        document.getElementById('error').style.display = 'block';
+        alert(errorMsg);
+      } finally {
+        document.getElementById('submitBtn').disabled = false;
+        document.getElementById('submitBtn').textContent = 'Submit';
+      }
+    });
+
+    // Initial fetch
+    fetchCompanyData();
+  </script>
+</body>
+</html>

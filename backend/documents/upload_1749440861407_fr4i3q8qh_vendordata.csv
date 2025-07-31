@@ -1,0 +1,36 @@
+S.No,Vendor Name,Username,Group Name,Division,Status,Email,Phone Number,Documents,Email Sent Date,Last Updated,Invoice No,Invoice Date,Bill Amount
+1,TechTrend Pvt Ltd,techtrend01,Alpha Group,IT,Response Received,info@techtrend.com,+91-9876543210,"doc1.pdf,doc2.pdf",15/05/2025,04/06/2025,INV001,10/05/2025,45000.00
+2,SolarWorks Inc,solarworks02,Beta Group,Energy,Email Sent,sales@solarworks.in,+91-8765432109,,20/04/2025,01/06/2025,INV002,15/04/2025,32000.00
+3,GreenLeaf Solutions,greenleaf03,Gamma Group,Environment,Mail Viewed,contact@greenleaf.org,+91-7654321098,"doc3.pdf",10/05/2025,03/06/2025,INV003,05/05/2025,28000.00
+4,Innovatech Ltd,innovatech04,Alpha Group,Technology,Not Shown,info@innovatech.com,+91-6543210987,,01/04/2025,02/06/2025,INV004,01/04/2025,50000.00
+5,BlueWave Enterprises,bluewave05,Beta Group,Manufacturing,Payment Confirmed,support@bluewave.in,+91-5432109876,"doc4.pdf,doc5.pdf",25/04/2025,04/06/2025,INV005,20/04/2025,75000.00
+6,Starlight Systems,starlight06,Delta Group,IT,Response Received,info@starlight.com,+91-4321098765,"doc6.pdf",12/05/2025,03/06/2025,INV006,10/05/2025,42000.00
+7,EcoTech Pvt Ltd,ecotech07,Gamma Group,Environment,Email Sent,sales@ecotech.in,+91-3210987654,,18/04/2025,01/06/2025,INV007,15/04/2025,35000.00
+8,NexGen Solutions,nexgen08,Alpha Group,Technology,Mail Viewed,contact@nexgen.org,+91-2109876543,"doc7.pdf",08/05/2025,02/06/2025,INV008,05/05/2025,30000.00
+9,CloudPeak Inc,cloudpeak09,Beta Group,IT,Not Shown,info@cloudpeak.com,+91-1098765432,,05/04/2025,03/06/2025,INV009,01/04/2025,48000.00
+10,SkyHigh Enterprises,skyhigh10,Delta Group,Manufacturing,Payment Confirmed,support@skyhigh.in,+91-9876543211,"doc8.pdf,doc9.pdf",22/04/2025,04/06/2025,INV010,20/04/2025,65000.00
+11,TechWave Pvt Ltd,techwave11,Alpha Group,Technology,Response Received,info@techwave.com,+91-8765432108,"doc10.pdf",14/05/2025,03/06/2025,INV011,10/05/2025,40000.00
+12,Sunrise Systems,sunrise12,Beta Group,IT,Email Sent,sales@sunrise.in,+91-7654321097,,19/04/2025,01/06/2025,INV012,15/04/2025,33000.00
+13,GreenTech Ltd,greentech13,Gamma Group,Environment,Mail Viewed,contact@greentech.org,+91-6543210986,"doc11.pdf",11/05/2025,02/06/2025,INV013,05/05/2025,29000.00
+14,Innovative Solutions,innovative14,Alpha Group,Technology,Not Shown,info@innovative.com,+91-5432109875,,02/04/2025,03/06/2025,INV014,01/04/2025,52000.00
+15,BlueSky Enterprises,bluesky15,Beta Group,Manufacturing,Payment Confirmed,support@bluesky.in,+91-4321098764,"doc12.pdf,doc13.pdf",23/04/2025,04/06/2025,INV015,20/04/2025,70000.00
+16,StarTech Systems,startech16,Delta Group,IT,Response Received,info@startech.com,+91-3210987653,"doc14.pdf",13/05/2025,03/06/2025,INV016,10/05/2025,43000.00
+17,EcoWave Pvt Ltd,ecowave17,Gamma Group,Environment,Email Sent,sales@ecowave.in,+91-2109876542,,17/04/2025,01/06/2025,INV017,15/04/2025,34000.00
+18,NextWave Solutions,nextwave18,Alpha Group,Technology,Mail Viewed,contact@nextwave.org,+91-1098765431,"doc15.pdf",09/05/2025,02/06/2025,INV018,05/05/2025,31000.00
+19,CloudTech Inc,cloudtech19,Beta Group,IT,Not Shown,info@cloudtech.com,+91-9876543212,,15/04/2025,03/05/2025,INV019,01/04/2025,49000.00
+20,SkyTech Enterprises,skytech20,Delta Group,Manufacturing,Payment Confirmed,support@skytech.in,+91-8765432107,"doc16.pdf,doc17.pdf",21/04/2025,04/06/2025,INV020,20/04/2025,67000.00
+21,TechPeak Innovators,techpeak21,Alpha Group,Technology,Response Received,info@techpeak.com,+91-7654321096,"doc18.pdf",20/05/2025,03/06/2025,INV021,10/05/2025,41000.00
+22,SunWave Systems,sunwave22,Beta Group,IT,Email Sent,sales@sunwave.in,+91-6543210985,,16/04/2025,01/06/2025,INV022,15/04/2025,36000.00
+23,GreenPeak Ltd,greenpeak23,Gamma Group,Environment,Mail Viewed,contact@greenpeak.net,+91-5432109874,"doc19.pdf",22/05/2025,02/06/2025,INV023,05/05/2025,30000.00
+24,InnoPeak Solutions,innopeak24,Alpha Group,Technology,Not Shown,info@innopeak.com,+91-4321098763,,04/04/2025,03/06/2025,INV024,01/04/2025,51000.00
+25,BluePeak Enterprises,bluepeak25,Beta Group,Manufacturing,Payment Confirmed,support@bluepeak.in,+91-3210987652,"doc20.pdf,doc21.pdf",24/04/2025,04/06/2025,INV025,20/04/2025,72000.00
+26,StarPeak Tech,starpeak26,Delta Group,Technology,Response Received,info@starpeak.com,+91-2109876541,"doc22.pdf",15/05/2025,03/06/2025,INV026,10/05/2025,44000.00
+27,EcoPeak Solutions,ecopeak27,Gamma Group,Environment,Email Sent,sales@ecopeak.in,+91-1098765430,,18/04/2025,01/06/2025,INV027,15/04/2025,35000.00
+28,NextPeak Tech,nextpeak28,Alpha Group,IT,Mail Viewed,contact@nextpeak.org,+91-9876543213,"doc23.pdf",10/05/2025,02/06/2025,INV028,05/05/2025,32000.00
+29,CloudPeak Systems,cloudpeak29,Beta Group,Technology,Not Shown,info@cloudpeak.net,+91-8765432106,,25/04/2025,03/05/2025,INV029,01/04/2025,50000.00
+30,SkyPeak Enterprises,skypeak30,Delta Group,Manufacturing,Payment Confirmed,support@skypeak.in,+91-7654321095,"doc24.pdf,doc25.pdf",20/04/2025,04/06/2025,INV030,22/04/2025,69000.00
+31,TechCore Innovators,techcore31,Alpha Group,Technology,Response Received,info@techcore.com,+91-6543210984,"doc26.pdf",16/05/2025,03/06/2025,INV031,10/05/2025,43000.00
+32,SunCore Systems,suncore32,Beta Group,IT,Email Sent,sales@suncore.in,+91-5432109873,,13/04/2025,01/06/2025,INV032 promocional,15/04/2025,37000.00
+33,GreenCore Ltd,greencore33,Gamma Group,Environment,Mail Viewed,contact@greencore.com,+91-4321098762,"doc27.pdf",23/05/2025,02/06/2025,INV033,05/05/2025,31000.00
+34,InnoCore Solutions,innocore34,Alpha Group,Technology,Not Shown,info@innocore.com,+91-3210987651,,06/04/2025,03/06/2025,INV034,01/04/2025,53000.00
+35,BlueCore Enterprises,bluecore35,Beta Group,Manufacturing,Payment Confirmed,support@bluecore.in,+91-2109876540,"doc28.pdf,doc29.pdf",26/04/2025,04/06/2025,INV035,20/04/2025,740

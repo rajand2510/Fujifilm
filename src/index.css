@@ -1,0 +1,21 @@
+@import "tailwindcss";
+  *::-webkit-scrollbar {
+  width: 6px; /* Adjust width as needed */
+  height: 8px; /* Adjust height for horizontal scrollbars */
+}
+
+*::-webkit-scrollbar-track {
+  background: #EAEAEA; /* Light background color */
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #C3C7CB; /* Darker thumb color */
+  border-radius: 5px; /* Add some rounding */
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #bbb; /* Change thumb color on hover */
+}
+* {
+  font-family: 'Open Sans', sans-serif;
+}

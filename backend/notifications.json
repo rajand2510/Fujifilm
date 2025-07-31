@@ -1,0 +1,382 @@
+[
+  {
+    "id": "notif_1748758891363_n1pwar7hu",
+    "type": "email_sent",
+    "companyId": "comp_1748673761945_n04nqfs64",
+    "companyName": "Auto Mfg",
+    "email": "granthviramoliya22@gmail.com",
+    "subject": "Please Submit Your Documents",
+    "timestamp": "2025-06-01T06:21:31.368Z",
+    "read": true
+  },
+  {
+    "id": "notif_1748759273098_bm4ozfs0n",
+    "type": "email_sent",
+    "companyId": "comp_1748673761945_n04nqfs64",
+    "companyName": "Auto Mfg",
+    "email": "granthviramoliya22@gmail.com",
+    "subject": "Please Submit Your Documents",
+    "timestamp": "2025-06-01T06:27:53.100Z",
+    "read": true
+  },
+  {
+    "id": "notif_1748759744175_sclqvwmgx",
+    "type": "email_sent",
+    "companyId": "comp_1748673761945_n04nqfs64",
+    "companyName": "Auto Mfg",
+    "email": "granthviramoliya22@gmail.com",
+    "subject": "Please Submit Your Documents",
+    "timestamp": "2025-06-01T06:35:44.177Z",
+    "read": true
+  },
+  {
+    "id": "notif_1748760615255_p5mrtkt3u",
+    "type": "email_sent",
+    "companyId": "comp_1748673761945_n04nqfs64",
+    "companyName": "Auto Mfg",
+    "email": "granthviramoliya22@gmail.com",
+    "subject": "Please Submit Your Documents",
+    "timestamp": "2025-06-01T06:50:15.257Z",
+    "read": true
+  },
+  {
+    "id": "notif_1748843552240_0yqwdrtug",
+    "type": "email_sent",
+    "companyId": "comp_1748673761945_n04nqfs64",
+    "companyName": "Auto Mfg",
+    "email": "granthviramoliya22@gmail.com",
+    "subject": "Please Submit Your Documents",
+    "timestamp": "2025-06-02T05:52:32.244Z",
+    "read": false
+  },
+  {
+    "id": "notif_1748843620534_bc91l1zno",
+    "type": "email_sent",
+    "companyId": "comp_1748673761945_n04nqfs64",
+    "companyName": "Auto Mfg",
+    "email": "granthviramoliya22@gmail.com",
+    "subject": "Please Submit Your Documents",
+    "timestamp": "2025-06-02T05:53:40.534Z",
+    "read": false
+  },
+  {
+    "id": "notif_1748846576948_nget365al",
+    "type": "email_sent",
+    "companyId": "comp_1748673761945_i0ofzgl0z",
+    "companyName": "Bank Secure",
+    "email": "emily.davis@banksecure.com",
+    "subject": "Please Submit Your Documents",
+    "timestamp": "2025-06-02T06:42:56.948Z",
+    "read": false
+  },
+  {
+    "id": "notif_1748846577123_ajrs2k0tr",
+    "type": "email_sent",
+    "companyId": "comp_1748673761945_n04nqfs64",
+    "companyName": "Auto Mfg",
+    "email": "granthviramoliya22@gmail.com",
+    "subject": "Please Submit Your Documents",
+    "timestamp": "2025-06-02T06:42:57.123Z",
+    "read": false
+  },
+  {
+    "id": "notif_1748846635864_750dgbwgs",
+    "type": "email_sent",
+    "companyId": "comp_1748673761945_n04nqfs64",
+    "companyName": "Auto Mfg",
+    "email": "granthviramoliya22@gmail.com",
+    "subject": "Please Submit Your Documents",
+    "timestamp": "2025-06-02T06:43:55.864Z",
+    "read": false
+  },
+  {
+    "id": "notif_1748846636065_zc9lt6h3n",
+    "type": "email_sent",
+    "companyId": "comp_1748673761945_i0ofzgl0z",
+    "companyName": "Bank Secure",
+    "email": "ramoliyagranthvi97@gmail.com",
+    "subject": "Please Submit Your Documents",
+    "timestamp": "2025-06-02T06:43:56.065Z",
+    "read": false
+  },
+  {
+    "id": "notif_1748846780477_91lruq5qc",
+    "type": "email_sent",
+    "companyId": "comp_1748673761945_i0ofzgl0z",
+    "companyName": "Bank Secure",
+    "email": "ramoliyagranthvi97@gmail.com",
+    "subject": "Please Submit Your Documents",
+    "timestamp": "2025-06-02T06:46:20.477Z",
+    "read": false
+  },
+  {
+    "id": "notif_1748846780690_1paucjw56",
+    "type": "email_sent",
+    "companyId": "comp_1748673761945_n04nqfs64",
+    "companyName": "Auto Mfg",
+    "email": "granthviramoliya22@gmail.com",
+    "subject": "Please Submit Your Documents",
+    "timestamp": "2025-06-02T06:46:20.691Z",
+    "read": false
+  },
+  {
+    "id": "notif_1748848482888_7tw3qutst",
+    "type": "email_sent",
+    "companyId": "comp_1748673761945_i0ofzgl0z",
+    "companyName": "Bank Secure",
+    "email": "ramoliyagranthvi97@gmail.com",
+    "subject": "",
+    "timestamp": "2025-06-02T07:14:42.888Z",
+    "read": false
+  },
+  {
+    "id": "notif_1748848483451_5annpngja",
+    "type": "email_sent",
+    "companyId": "comp_1748673761945_n04nqfs64",
+    "companyName": "Auto Mfg",
+    "email": "granthviramoliya22@gmail.com",
+    "subject": "",
+    "timestamp": "2025-06-02T07:14:43.451Z",
+    "read": false
+  },
+  {
+    "id": "notif_1748848483559_kyliq0czc",
+    "type": "email_sent",
+    "companyId": "comp_1748673761945_v3u2t7gcv",
+    "companyName": "Auto Tech",
+    "email": "daniel.garcia@autotech.com",
+    "subject": "",
+    "timestamp": "2025-06-02T07:14:43.559Z",
+    "read": false
+  },
+  {
+    "id": "notif_1748849398892_03gpln7kd",
+    "type": "email_sent",
+    "companyId": "comp_1748673761945_n04nqfs64",
+    "companyName": "Auto Mfg",
+    "email": "granthviramoliya22@gmail.com",
+    "subject": "Please Submit Your Documents",
+    "timestamp": "2025-06-02T07:29:58.893Z",
+    "read": false
+  },
+  {
+    "id": "notif_1748849462065_qij2htynj",
+    "type": "email_sent",
+    "companyId": "comp_1748673761945_hv92afn03",
+    "companyName": "Cloud Net",
+    "email": "anna.taylor@cloudnet.com",
+    "subject": "Please Submit Your Documents",
+    "timestamp": "2025-06-02T07:31:02.066Z",
+    "read": false
+  },
+  {
+    "id": "notif_1748864827047_7zipq9fyu",
+    "type": "email_sent",
+    "companyId": "comp_1748673761945_n04nqfs64",
+    "companyName": "Auto Mfg",
+    "email": "granthviramoliya22@gmail.com",
+    "subject": "Please Submit Your Documents",
+    "timestamp": "2025-06-02T11:47:07.047Z",
+    "read": false
+  },
+  {
+    "id": "notif_1748864898899_e9l5tgatq",
+    "type": "email_sent",
+    "companyId": "comp_1748673761945_n04nqfs64",
+    "companyName": "Auto Mfg",
+    "email": "granthviramoliya22@gmail.com",
+    "subject": "Please Submit Your Documents",
+    "timestamp": "2025-06-02T11:48:18.899Z",
+    "read": true
+  },
+  {
+    "id": "notif_1748865697459_zpvkwgi41",
+    "type": "email_sent",
+    "companyId": "comp_1748673761945_n04nqfs64",
+    "companyName": "Auto Mfg",
+    "email": "granthviramoliya22@gmail.com",
+    "subject": "Please Submit Your Documents",
+    "timestamp": "2025-06-02T12:01:37.460Z",
+    "read": false
+  },
+  {
+    "id": "notif_1748866538924_6fnmfyd5q",
+    "type": "company_response",
+    "companyId": "comp_1748673761945_n04nqfs64",
+    "companyName": "Auto Mfg",
+    "message": "--000000000000da787706367d138d\r\nContent-Type: text/plain; charset=\"UTF-8\"\r\nContent-Transfer-Encoding: quoted-printable\r\n\r\nHii\r\n\r\nOn Sun, Jun 1, 2025, 12:21=E2=80=AFPM Granthvi Ramoliya <\r\ngranthviramoliya22@gmail.com> wrote:\r\n\r\ne:\r\n\r\n--000000000000da787706367d138d\r\nContent-Type: text/html; charset=\"UTF-8\"\r\nContent-Transfer-Encoding: quoted-printable\r\n\r\n<div dir=3D\"auto\">Hii</div><br><div class=3D\"gmail_quote gmail_quote_contai=\r\nner\"><div dir=3D\"ltr\" class=3D\"gmail_attr\">On Sun, Jun 1, 2025, 12:21=E2=80=\r\n=AFPM Granthvi Ramoliya &lt;<a href=3D\"mailto:granthviramoliya22@gmail.com\"=\r\ngmail_quote\" style=3D\"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-=\r\nleft:1ex\"><div dir=3D\"auto\">Hyy</div><br><div class=3D\"gmail_quote\"><div di=\r\nr=3D\"ltr\" class=3D\"gmail_attr\">On Sun, Jun 1, 2025, 12:20=E2=80=AFPM  &lt;<=\r\na href=3D\"mailto:granthviramoliya22@gmail.com\" target=3D\"_blank\" rel=3D\"nor=\r\neferrer\">granthviramoliya22@gmail.com</a>&gt; wrote:<br></div><blockquote c=\r\nlass=3D\"gmail_quote\" style=3D\"margin:0 0 0 .8ex;border-left:1px #ccc solid;=\r\npadding-left:1ex\">Dear Auto Mfg,<br>\r\n<br>\r\nKindly refer to the below list of vendors. You are requested to provide bal=\r\nance confirmation as on 31st Mar 2025 on a priority basis.<br>\r\n<br>\r\nPlease find the attached balance confirmation format. The balance confirmat=\r\nion must be printed on your company letterhead with a signature and stamp. =\r\nKindly fill out the attached document and return it to us.<br>\r\n<br>\r\nBest regards,<br>\r\nFUJIFILM<br>\r\nPhone: +91 89345-93685<br>\r\n</blockquote></div>\r\n</blockquote></div>\r\n\r\n--000000000000da787706367d138d--",
+    "documents": [],
+    "timestamp": "2025-06-02T12:15:38.942Z",
+    "read": false
+  },
+  {
+    "id": "notif_1748868213288_zl86blmau",
+    "type": "email_sent",
+    "companyId": "comp_1748673761945_i0ofzgl0z",
+    "companyName": "Bank Secure",
+    "email": "ramoliyagranthvi97@gmail.com",
+    "subject": "Please Submit Your Documents",
+    "timestamp": "2025-06-02T12:43:33.290Z",
+    "read": false
+  },
+  {
+    "id": "notif_1748869701451_jcx2oeq1r",
+    "type": "email_sent",
+    "companyId": "comp_1748673761945_nxymtrb05",
+    "companyName": "Medi Care",
+    "email": "michael.chen@medicare.com",
+    "subject": "Please Submit Your Documents",
+    "timestamp": "2025-06-02T13:08:21.455Z",
+    "read": false
+  },
+  {
+    "id": "notif_1748869702032_z9y4mowqz",
+    "type": "email_sent",
+    "companyId": "comp_1748673761945_n04nqfs64",
+    "companyName": "Auto Mfg",
+    "email": "granthviramoliya22@gmail.com",
+    "subject": "Please Submit Your Documents",
+    "timestamp": "2025-06-02T13:08:22.033Z",
+    "read": false
+  },
+  {
+    "id": "notif_1748869702968_8ffreesxq",
+    "type": "email_sent",
+    "companyId": "comp_1748673761945_i0ofzgl0z",
+    "companyName": "Bank Secure",
+    "email": "ramoliyagranthvi97@gmail.com",
+    "subject": "Please Submit Your Documents",
+    "timestamp": "2025-06-02T13:08:22.968Z",
+    "read": false
+  },
+  {
+    "id": "notif_1748871858196_s857c1xa8",
+    "type": "email_sent",
+    "companyId": "comp_1748673761945_vqgtkdpc5",
+    "companyName": "Shop Easy",
+    "email": "david.kim@shopeasy.com",
+    "subject": "Please Submit Your Documents",
+    "timestamp": "2025-06-02T13:44:18.197Z",
+    "read": false
+  },
+  {
+    "id": "notif_1748871858329_duf7gzazu",
+    "type": "email_sent",
+    "companyId": "comp_1748673761945_q3sa0yhk4",
+    "companyName": "Car Works",
+    "email": "laura.martinez@carworks.com",
+    "subject": "Please Submit Your Documents",
+    "timestamp": "2025-06-02T13:44:18.329Z",
+    "read": false
+  },
+  {
+    "id": "notif_1748871858478_8osqjl4ru",
+    "type": "email_sent",
+    "companyId": "comp_1748673761945_hv92afn03",
+    "companyName": "Cloud Net",
+    "email": "anna.taylor@cloudnet.com",
+    "subject": "Please Submit Your Documents",
+    "timestamp": "2025-06-02T13:44:18.479Z",
+    "read": false
+  },
+  {
+    "id": "notif_1748871858601_funlzaukp",
+    "type": "email_sent",
+    "companyId": "comp_1748673761945_i0ofzgl0z",
+    "companyName": "Bank Secure",
+    "email": "ramoliyagranthvi97@gmail.com",
+    "subject": "Please Submit Your Documents",
+    "timestamp": "2025-06-02T13:44:18.601Z",
+    "read": false
+  },
+  {
+    "id": "notif_1748871858784_mpd5jtkll",
+    "type": "email_sent",
+    "companyId": "comp_1748673761945_nxymtrb05",
+    "companyName": "Medi Care",
+    "email": "michael.chen@medicare.com",
+    "subject": "Please Submit Your Documents",
+    "timestamp": "2025-06-02T13:44:18.784Z",
+    "read": false
+  },
+  {
+    "id": "notif_1748871859284_j4zhdoj95",
+    "type": "email_sent",
+    "companyId": "comp_1748673761945_n04nqfs64",
+    "companyName": "Auto Mfg",
+    "email": "granthviramoliya22@gmail.com",
+    "subject": "Please Submit Your Documents",
+    "timestamp": "2025-06-02T13:44:19.284Z",
+    "read": false
+  },
+  {
+    "id": "notif_1748872012903_8gr5onjlo",
+    "type": "email_sent",
+    "companyId": "comp_1748673761945_nxymtrb05",
+    "companyName": "Medi Care",
+    "email": "michael.chen@medicare.com",
+    "subject": "Please Submit Your Documents",
+    "timestamp": "2025-06-02T13:46:52.914Z",
+    "read": false
+  },
+  {
+    "id": "notif_1748872028936_4v1q6upr3",
+    "type": "email_sent",
+    "companyId": "comp_1748673761945_hv92afn03",
+    "companyName": "Cloud Net",
+    "email": "anna.taylor@cloudnet.com",
+    "subject": "Please Submit Your Documents",
+    "timestamp": "2025-06-02T13:47:08.937Z",
+    "read": false
+  },
+  {
+    "id": "notif_1748872029123_0j13n23kh",
+    "type": "email_sent",
+    "companyId": "comp_1748673761945_q3sa0yhk4",
+    "companyName": "Car Works",
+    "email": "laura.martinez@carworks.com",
+    "subject": "Please Submit Your Documents",
+    "timestamp": "2025-06-02T13:47:09.123Z",
+    "read": false
+  },
+  {
+    "id": "notif_1748872029291_j80a25wnp",
+    "type": "email_sent",
+    "companyId": "comp_1748673761945_i0ofzgl0z",
+    "companyName": "Bank Secure",
+    "email": "ramoliyagranthvi97@gmail.com",
+    "subject": "Please Submit Your Documents",
+    "timestamp": "2025-06-02T13:47:09.291Z",
+    "read": false
+  },
+  {
+    "id": "notif_1748872029632_y116k72qm",
+    "type": "email_sent",
+    "companyId": "comp_1748673761945_n04nqfs64",
+    "companyName": "Auto Mfg",
+    "email": "granthviramoliya22@gmail.com",
+    "subject": "Please Submit Your Documents",
+    "timestamp": "2025-06-02T13:47:09.632Z",
+    "read": false
+  },
+  {
+    "id": "notif_1748872029906_1bvthb8dn",
+    "type": "email_sent",
+    "companyId": "comp_1748673761945_nxymtrb05",
+    "companyName": "Medi Care",
+    "email": "michael.chen@medicare.com",
+    "subject": "Please Submit Your Documents",
+    "timestamp": "2025-06-02T13:47:09.906Z",
+    "read": false
+  },
+  {
+    "id": "notif_1748872030273_2anz0m26f",
+    "type": "email_sent",
+    "companyId": "comp_1748673761945_vqgtkdpc5",
+    "companyName": "Shop Easy",
+    "email": "david.kim@shopeasy.com",
+    "subject": "Please Submit Your Documents",
+    "timestamp": "2025-06-02T13:47:10.273Z",
+    "read": false
+  }
+]
