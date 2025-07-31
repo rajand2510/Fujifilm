@@ -5,7 +5,7 @@ import Chart from "chart.js/auto";
 import { io } from "socket.io-client";
 
 // Initialize Socket.IO client
-const socket = io("http://localhost:3002");
+const socket = io("http://localhost:3000");
 
 const Dashboard = () => {
   const [emailUser, setEmailUser] = useState("User");
@@ -36,7 +36,7 @@ const Dashboard = () => {
   useEffect(() => {
     const fetchCompanies = async () => {
       try {
-        const response = await fetch("http://localhost:3002/api/companies");
+        const response = await fetch("http://localhost:3000/api/companies");
         if (!response.ok) {
           throw new Error(`Failed to fetch companies: ${response.statusText}`);
         }

@@ -159,8 +159,8 @@ const saveNotifications = async (notification) => {
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: process.env.EMAIL_USER || "rajansatvara@gmail.com",
-    pass: process.env.EMAIL_PASS || "yorudvezokllqnyt",
+    user: process.env.EMAIL_USER || "dhruvgaming27041@gmail.com",
+    pass: process.env.EMAIL_PASS || "qrykjneowgrjjtzt",
   },
 });
 
@@ -177,8 +177,8 @@ transporter.verify((err, success) => {
 // IMAP configuration for email monitoring
 const imapConfig = {
   imap: {
-    user: process.env.EMAIL_USER || "rajansatvara@gmail.com",
-    password: process.env.EMAIL_PASS || "yorudvezokllqnyt",
+    user: process.env.EMAIL_USER || "dhruvgaming27041@gmail.com",
+    password: process.env.EMAIL_PASS || "qrykjneowgrjjtzt",
     host: "imap.gmail.com",
     port: 993,
     tls: true,
@@ -1069,8 +1069,8 @@ app.post("/api/send-single-email", upload.single('attachment'), async (req, res)
     // Prepare email content
     const companyName = company.companyName || "Vendor";
     // Change localhost to your production domain as needed
-    const submissionLink = `http://localhost:3003/submit-documents/${company._id}`;
-     const submissionLinkcompany = `http://localhost:3003/submit-documents/${company.companyName}`;
+    const submissionLink = `"https://fuji.uday.me/submit-documents/${company._id}`;
+     const submissionLinkcompany = `"https://fuji.uday.me/submit-documents/${company.companyName}`;
     const defaultBody = `
 Dear ${companyName},
 
@@ -1102,7 +1102,7 @@ Phone: +91 89345-93685
 
     // Prepare mail options
     const mailOptions = {
-      from: `"FUJIFILM" <${process.env.EMAIL_USER || "rajansatvara@gmail.com"}>`,
+      from: `"FUJIFILM" <${process.env.EMAIL_USER || "filmfuzzy180@gmail.com"}>`,
       to: company.email.trim().toLowerCase(),
       cc: ccList,
       subject: subject || "Request for Balance Confirmation as on 31st Mar 2025",
@@ -1203,7 +1203,7 @@ app.post("/api/send-bulk-emails", async (req, res) => {
       }
 
       const companyName = company.companyName || "Vendor";
-      const submissionLink = `http://localhost:3003/submit-documents/${company._id}`;
+      const submissionLink = `https://fuji.uday.me/submit-documents/${company._id}`;
       const emailText = `
 Dear ${companyName},
 
@@ -1220,7 +1220,7 @@ Phone: +91 89345-93685
 
       const mailOptions = {
         from: `"FUJIFILM" <${
-          process.env.EMAIL_USER || "rajansatvara@gmail.com"
+          process.env.EMAIL_USER || "filmfuzzy180@gmail.com"
         }>`,
         to: company.email.trim().toLowerCase(),
         subject: "Request for Balance Confirmation as on 31st Mar 2025",
@@ -1322,7 +1322,7 @@ app.post("/api/resend-failed-emails", async (req, res) => {
       }
 
       const companyName = company.companyName || "Vendor";
-      const submissionLink = `http://localhost:3003/submit-documents/${company._id}`;
+      const submissionLink = `https://fujiapi.uday.me/submit-documents/${company._id}`;
       const emailText = `
 Dear ${companyName},
 
@@ -1339,7 +1339,7 @@ Phone: +91 89345-93685
 
       const mailOptions = {
         from: `"FUJIFILM" <${
-          process.env.EMAIL_USER || "rajansatvara@gmail.com"
+          process.env.EMAIL_USER || "filmfuzzy180@gmail.com"
         }>`,
         to: company.email.trim().toLowerCase(),
         subject:
@@ -1518,7 +1518,7 @@ app.post("/api/send-quarterly-reminders", async (req, res) => {
       }
 
       const companyName = company.companyName || "Vendor";
-      const submissionLink = `http://localhost:3003/submit-documents/${company._id}`;
+      const submissionLink = `https://fuji.uday.me/submit-documents/${company._id}`;
       const emailText = `
 Dear ${companyName},
 
@@ -1537,7 +1537,7 @@ Phone: +91 89345-93685
 
       const mailOptions = {
         from: `"FUJIFILM" <${
-          process.env.EMAIL_USER || "rajansatvara@gmail.com"
+          process.env.EMAIL_USER || "filmfuzzy180@gmail.com"
         }>`,
         to: company.email.trim().toLowerCase(),
         subject: `Quarterly Reminder: Balance Confirmation for ${currentQuarter.start.toLocaleDateString(
@@ -2224,7 +2224,7 @@ cron.schedule("0 0 * * *", async () => {
   try {
     console.log(`${logPrefix} - Running quarterly reminders cron job`);
     const response = await fetch(
-      "http://localhost:3003/api/send-quarterly-reminders",
+      "https://fuji.uday.me/api/send-quarterly-reminders",
       { method: "POST" }
     );
     const data = await response.json();
